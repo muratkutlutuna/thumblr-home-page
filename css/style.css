@@ -1,0 +1,38 @@
+/***********
+**Globals**
+************/
+
+:root {
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/***********
+All Container
+************/
+
+.all-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 54 1fr;
+}
+
+/***********
+***Header***
+************/
+
+
+
+
+/***********
+****Main****
+************/
