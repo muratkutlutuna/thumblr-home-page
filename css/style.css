@@ -1,14 +1,14 @@
 /***********
 **Globals**
 ************/
-
-:root {
-
+* {
+    box-sizing:border-box;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+    background-color: rgb(54, 70, 93);
 }
 
 p {
@@ -21,17 +21,103 @@ All Container
 ************/
 
 .all-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 54 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 /***********
 ***Header***
 ************/
 
+header{
+    display: flex;
+    width: 100%;
+    height:100%;
+}
 
+.headercontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:100%;
+}
 
+.upsection {
+  display:flex;
+  justify-content:flex-start; 
+  height: 54px;
+  width:100%;
+  border-bottom: 1px solid white;
+}
+
+.upcontainer {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  right:129px;
+  left:129px;
+  height:100%;
+}
+
+.leftsection {
+  position:relative;
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start; 
+  width: 100%;
+  height:100%; 
+}
+
+.logo{
+  position:relative;
+  display:flex;
+  justify-content: flex-start;
+  background-image: url(https://assets.tumblr.com/images/logo/hover-animations/1.png?_v=161861a…);
+  background-size: 1008px 34px;
+  width: 22px;
+  height: 34px;
+  top:11px;
+  left:0px;
+}
+
+.search {
+  position:relative;
+  display:flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-top:11px;
+  padding-left:14px;  
+}
+
+.search_form is_tag_search {
+  
+}
+
+.rightsection {
+  display:flex;
+  justify-content:flex-end;
+}
+
+.login-button {
+  
+}
+
+.signup-button {
+  
+}
+
+.downsection{
+    height: 36px;
+    border-bottom: 1px solid white;
+}
+
+.downcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+    width: 1235px;
+}
 
 /***********
 ****Main****
